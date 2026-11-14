@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+# Foundry build output
+out
+cache
+broadcast
+# local env files
+.env
+.env.*
+!.env.example

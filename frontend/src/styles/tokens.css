@@ -1,0 +1,38 @@
+:root {
+  --color-paper: #f3ead3;
+  --color-paper-deep: #e6d9b8;
+  --color-ink: #16130f;
+  --color-ink-soft: #5b5346;
+  --color-red: #ff3d2e;
+  --color-red-deep: #a81508;
+  --color-yellow: #ffd23f;
+  --color-blue: #2b4bff;
+  --color-green: #0b7a3b;
+
+  --font-display: 'Archivo Black', 'Arial Black', sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+  --text-price: clamp(2.5rem, 1.5rem + 4vw, 4.5rem);
+  --text-hero: clamp(2.75rem, 1rem + 8vw, 7rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-section: clamp(2.5rem, 1.5rem + 5vw, 6rem);
+
+  --border: 3px solid var(--color-ink);
+  --shadow-hard: 6px 6px 0 var(--color-ink);
+  --shadow-hard-sm: 3px 3px 0 var(--color-ink);
+  --button-size: clamp(13rem, 8rem + 22vw, 20rem);
+  --button-travel: 1.25rem;
+
+  --duration-fast: 90ms;
+  --duration-normal: 220ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
