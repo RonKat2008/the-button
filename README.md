@@ -40,3 +40,6 @@ npm run dev
 **4. Connect a wallet.** In MetaMask, add the network `http://127.0.0.1:8545` (chain id `31337`) and import one of anvil's private keys. These are public test keys: never send real funds to them.
 
 Restarting `anvil` wipes the chain, so redeploy and update `.env` each time.
+
+
+AI was used in this project to create the frontend and help debug the solidity file a little but. All code in the solidity file was written by me. 
